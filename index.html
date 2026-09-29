@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>BizCase — Окно №3, симулятор операциониста банка</title>
+<meta name="description" content="BizCase («Окно №3») — игра для iPhone: вы операционист Народного Сберегательного Банка. Проверяйте паспорта и заявления, ловите фальшивки под УФ-лампой, растите от стажёра до заведующего окном.">
+<meta name="theme-color" content="#0f0f0f">
+<meta name="color-scheme" content="dark">
+<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
+<link rel="stylesheet" href="assets/style.css">
+<!-- TODO: site-url — замените https://example.com/ на адрес сайта (canonical, Open Graph) -->
+<link rel="canonical" href="https://example.com/" data-placeholder="site-url">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="BizCase">
+<meta property="og:locale" content="ru_RU">
+<meta property="og:locale:alternate" content="en_US">
+<meta property="og:title" content="BizCase — Окно №3, симулятор операциониста банка">
+<meta property="og:description" content="Паспорт, заявление, купюры под УФ-лампой. Проверяйте клиентов по регламенту дня и ловите мошенников. Игра для iPhone.">
+<meta property="og:url" content="https://example.com/" data-placeholder="site-url">
+<meta property="og:image" content="https://example.com/assets/og-image.jpg" data-placeholder="site-url">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Иконка BizCase и портреты клиентов банка">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="BizCase — Окно №3">
+<meta name="twitter:description" content="Симулятор операциониста банка для iPhone.">
+<meta name="twitter:image" content="https://example.com/assets/og-image.jpg" data-placeholder="site-url">
+<script src="assets/main.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Перейти к содержанию</a>
+
+<header class="site-header">
+  <div class="wrap header-row">
+    <a class="brand" href="./" aria-label="BizCase — на главную"><img src="assets/icon-512.webp" alt="" width="32" height="32">BizCase</a>
+    <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Меню</button>
+    <nav class="site-nav" id="site-nav" aria-label="Основное меню">
+      <ul>
+        <li><a href="#features">Возможности</a></li>
+        <li><a href="#how">Как играть</a></li>
+        <li><a href="#privacy">Приватность</a></li>
+        <li><a href="#support">Поддержка</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="wrap hero-grid">
+      <div>
+        <img class="hero-icon" src="assets/icon-512.webp" width="128" height="128" alt="Иконка приложения BizCase: красно-чёрная круговая диаграмма">
+        <span class="eyebrow">Окно №3 · игра для iPhone</span>
+        <h1 id="hero-title">BizCase</h1>
+        <p class="tagline">Симулятор операциониста банка. Очередь ждёт, регламент меняется каждый день.</p>
+        <p class="lede">Народный Сберегательный Банк взял вас в окно №3. Сверьте паспорт с лицом, заявление — с паспортом, купюры — с образцом. Провести, отказать или позвать охрану — решать вам, и часы идут.</p>
+        <div class="cta-row">
+          <a class="store-badge" href="https://apps.apple.com/app/id6817273750" target="_blank" rel="noopener" aria-label="Загрузите в App Store">
+            <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M16.4 12.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9 0 0-2.7-1-2.7-4.1zM13.9 5c.7-.9 1.2-2 1-3.2-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.1 1.2.1 2.3-.6 3.1-1.5z"/></svg>
+            <span><small>Загрузите в</small><strong>App Store</strong></span>
+          </a>
+        </div>
+        <ul class="chips" aria-label="Коротко">
+          <li>iPhone · iOS 15+</li>
+          <li>Бесплатно</li>
+          <li>Без рекламы и покупок</li>
+          <li>Без регистрации</li>
+          <li>Работает без интернета</li>
+          <li>На русском</li>
+        </ul>
+      </div>
+      <div class="hero-visual" aria-hidden="true">
+        <div class="shot back"><img src="assets/shots/03_uv.webp" width="640" height="1391" alt=""></div>
+        <div class="shot"><img src="assets/shots/01_desk.webp" width="640" height="1391" alt="" fetchpriority="high"></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="stats" aria-label="Игра в цифрах">
+    <div class="wrap">
+      <ul>
+        <li><b>150</b><span>клиентов</span></li>
+        <li><b>408</b><span>реплик</span></li>
+        <li><b>29</b><span>правил регламента</span></li>
+        <li><b>7</b><span>рангов</span></li>
+        <li><b>60</b><span>писем начальства</span></li>
+        <li><b>20</b><span>знаков отличия</span></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="section" id="features" aria-labelledby="features-title">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <h2 id="features-title">Бумаги, купюры и немного бюрократии</h2>
+        <p>Вымышленная Республика, вымышленный банк, сухой юмор. Каждый клиент — маленькая головоломка, которую нужно решить быстрее, чем очередь выйдет из себя.</p>
+      </div>
+
+      <article class="feature riso-paper reveal">
+        <div>
+          <span class="feature-kicker">Документы</span>
+          <h3>Проверьте каждого клиента</h3>
+          <p>Паспорт, заявление, платёжка, банковская карта, доверенность. Сверьте ФИО, даты, подписи, суммы и лимиты — одна ошибка может стоить выговора.</p>
+          <ul>
+            <li>6 операций: снятие, взнос, обмен валюты, коммунальные платежи, выпуск карты, кредит.</li>
+            <li>«Запросить документ», если чего-то не хватает.</li>
+            <li>Три решения: «Провести», «Отказать», «Охрана».</li>
+          </ul>
+        </div>
+        <div class="feature-media">
+          <div class="shot"><img src="assets/shots/01_desk.webp" width="640" height="1391" loading="lazy" alt="Экран стола операциониста: клиентка у окна, её паспорт, заявление и купюры"></div>
+        </div>
+      </article>
+
+      <article class="feature riso-ink reveal">
+        <div>
+          <span class="feature-kicker">Инструменты</span>
+          <h3>УФ-лампа и лупа</h3>
+          <p>Настоящая камера телефона под фиолетовым светом проявляет метки на купюрах. Лупа показывает микротекст паспорта, купюр и печати нотариуса — одна буква выдаёт подделку.</p>
+          <p>Нет камеры или не хочется её включать — лампа работает на тёмном фоне.</p>
+        </div>
+        <div class="feature-media pair">
+          <div class="shot"><img src="assets/shots/03_uv.webp" width="640" height="1391" loading="lazy" alt="УФ-лампа: на купюрах светятся защитные метки"></div>
+          <div class="shot"><img src="assets/shots/04_magnifier.webp" width="640" height="1391" loading="lazy" alt="Лупа: микротекст паспорта, подписи и купюр крупным планом"></div>
+        </div>
+      </article>
+
+      <article class="feature riso-mustard reveal">
+        <div>
+          <span class="feature-kicker">Регламент</span>
+          <h3>29 правил, и каждый день — свои</h3>
+          <p>Даты, лимиты, курс, получатели платежей, образцы микротекста. Правила открываются вместе с рангом, а «правило недели» встречается чаще остальных.</p>
+        </div>
+        <div class="feature-media">
+          <div class="shot"><img src="assets/shots/05_rulebook.webp" width="640" height="1391" loading="lazy" alt="Регламент дня: лимиты, курс валюты, список получателей платежей и правила"></div>
+        </div>
+      </article>
+
+      <article class="feature riso-green reveal">
+        <div>
+          <span class="feature-kicker">Отделения</span>
+          <h3>Шесть отделений на улицах вокруг вас</h3>
+          <p>Пригород, спальный район, рынок, вокзал, бизнес-центр, центр — у каждого свой поток клиентов: на вокзале чаще фальшивки, на рынке — крупные взносы, в бизнес-центре — кредиты и доверенности.</p>
+          <p>Геолокация спрашивается только по кнопке «Переехать» и используется один раз. В игре хранится лишь округлённый номер района, не координаты. Без геолокации — вымышленный город «Столичный».</p>
+        </div>
+        <div class="feature-media">
+          <div class="shot"><img src="assets/shots/06_branches.webp" width="640" height="1391" loading="lazy" alt="Список отделений банка с названиями улиц и схемой района"></div>
+        </div>
+      </article>
+
+      <article class="feature riso-brick reveal">
+        <div>
+          <span class="feature-kicker">Карьера</span>
+          <h3>От стажёра до заведующего окном</h3>
+          <p>Семь рангов, зарплата, премии и штрафы, репутация и письма начальства. Три выговора — увольнение, и карьера начинается заново.</p>
+          <ul>
+            <li>12 улучшений рабочего места — от кофеварки до альбома образцов.</li>
+            <li>20 знаков отличия за безупречные смены, пойманных мошенников и рекорды.</li>
+            <li>Бейдж сотрудника с вашим селфи — хранится только на телефоне.</li>
+          </ul>
+        </div>
+        <div class="feature-media pair">
+          <div class="shot"><img src="assets/shots/07_summary.webp" width="640" height="1391" loading="lazy" alt="Итог смены: зарплата, премии, штрафы и письмо начальства о повышении"></div>
+          <div class="shot"><img src="assets/shots/10_shop.webp" width="640" height="1391" loading="lazy" alt="Магазин улучшений рабочего места"></div>
+        </div>
+      </article>
+
+      <article class="feature riso-paper reveal">
+        <div>
+          <span class="feature-kicker">Смена дня</span>
+          <h3>Одна смена в сутки — одинаковая для всех</h3>
+          <p>Каждый день новая «Смена дня»: те же клиенты и правила у всех игроков, одна попытка, очки и личный рекорд. Деньги и ранг карьеры она не трогает — только честь окна.</p>
+        </div>
+        <div class="feature-media pair">
+          <div class="shot"><img src="assets/shots/09_daily.webp" width="640" height="1391" loading="lazy" alt="Главное меню игры «Окно №3» с кнопкой «Смена дня»"></div>
+          <div class="shot"><img src="assets/shots/08_achievements.webp" width="640" height="1391" loading="lazy" alt="Профиль сотрудника: статистика и знаки отличия"></div>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="faces-title" style="padding-top:0">
+    <div class="wrap collage">
+      <figure class="reveal">
+        <img src="assets/shots/02_faces.webp" width="640" height="1391" loading="lazy" alt="Коллаж из десятков нарисованных портретов клиентов банка в стиле ризографии">
+        <figcaption>Портреты нарисованы в стиле ризографии — как старый плакат из типографии.</figcaption>
+      </figure>
+      <div class="reveal">
+        <span class="eyebrow">Очередь</span>
+        <h2 id="faces-title">150 клиентов у окна</h2>
+        <p class="lede">У каждого своя история, свои документы и 408 реплик на всех — от вежливых пенсионерок до торопливых мошенников. Лицо на фото в паспорте тоже нужно сверить.</p>
+        <div class="cards">
+          <div class="card">
+            <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 11h3l3-6v14l-3-6H3z"/><path d="M14 9a4 4 0 0 1 0 6M17 6a8 8 0 0 1 0 12"/></svg></div>
+            <h3>Голос — по желанию</h3>
+            <p>Реплики клиентов читает синтез речи iOS. Команды «провести», «отказать», «охрана» распознаются прямо на телефоне.</p>
+          </div>
+          <div class="card">
+            <div class="ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M8.5 14.5s1.3 1.5 3.5 1.5 3.5-1.5 3.5-1.5M9 9.5h.01M15 9.5h.01"/></svg></div>
+            <h3>Подтверждение личности</h3>
+            <p>На крупных операциях клиент моргает или улыбается в фронтальную камеру. Без камеры — подтверждение паролем.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="how" aria-labelledby="how-title" style="padding-top:0">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Как играть</span>
+        <h2 id="how-title">Четыре шага у окна</h2>
+        <p>Обучение за две минуты покажет всё на пяти клиентах.</p>
+      </div>
+      <ol class="steps">
+        <li class="reveal"><h3>Откройте регламент</h3><p>Какой сегодня день, лимит выдачи, курс и получатели платежей — всё в регламенте дня.</p></li>
+        <li class="reveal"><h3>Сверьте документы</h3><p>Лицо с фото, паспорт с заявлением, сумму с лимитом, подпись с образцом. Не хватает бумаги — запросите.</p></li>
+        <li class="reveal"><h3>Проверьте купюры</h3><p>УФ-лампа проявит метки, лупа — микротекст. Фальшивка редко выглядит фальшивкой.</p></li>
+        <li class="reveal"><h3>Примите решение</h3><p>Решение окончательное, а часы идут.</p>
+          <div class="decisions" aria-label="Решения"><span class="d-ok">Провести</span><span class="d-no">Отказать</span><span class="d-guard">Охрана</span></div>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section privacy-band" id="privacy" aria-labelledby="privacy-title">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <span class="eyebrow">Приватность</span>
+        <h2 id="privacy-title">Камера и голос — только на устройстве</h2>
+        <p>Все разрешения необязательны и спрашиваются только тогда, когда вы впервые пользуетесь функцией. У каждой есть замена кнопками.</p>
+      </div>
+      <div class="privacy-grid">
+        <div class="card reveal"><h3>Камера</h3><p>Кадры УФ-лампы и подтверждения личности обрабатываются в памяти телефона и не сохраняются. Фото для бейджа лежит только на устройстве и не попадает в резервную копию.</p></div>
+        <div class="card reveal"><h3>Микрофон и речь</h3><p>Голосовые команды распознаются на устройстве. Звук и расшифровки никуда не отправляются и не хранятся.</p></div>
+        <div class="card reveal"><h3>Геолокация</h3><p>Один раз по кнопке «Переехать». Названия улиц подбирает геосервис Apple; игра хранит только округлённый номер района.</p></div>
+        <div class="card reveal"><h3>Статистика и трекинг</h3><p>Статистику игры и отчёты о сбоях (Google Firebase) можно выключить в Настройках игры. Рекламный идентификатор и отслеживание между приложениями (AppsFlyer) — только если вы разрешите это в запросе iOS.</p></div>
+      </div>
+      <a class="btn-ghost" href="privacy.html">Политика конфиденциальности →</a>
+    </div>
+  </section>
+
+  <section class="final" id="support" aria-labelledby="support-title">
+    <div class="wrap">
+      <img src="assets/icon-512.webp" width="96" height="96" alt="">
+      <h2 id="support-title">Окно открыто — очередь ждёт</h2>
+      <p>Вопросы, ошибки, идеи для новых клиентов? Напишите нам:
+        <strong><a href="mailto:krushev.caps@gmail.com">krushev.caps@gmail.com</a></strong>
+      </p>
+      <div class="cta-row">
+        <a class="store-badge" href="https://apps.apple.com/app/id6817273750" target="_blank" rel="noopener" aria-label="Загрузите в App Store">
+          <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor"><path d="M16.4 12.6c0-2.6 2.1-3.8 2.2-3.9-1.2-1.8-3.1-2-3.7-2-1.6-.2-3.1.9-3.9.9-.8 0-2-.9-3.4-.9-1.7 0-3.3 1-4.2 2.6-1.8 3.1-.5 7.7 1.3 10.2.9 1.2 1.9 2.6 3.2 2.6 1.3-.1 1.8-.8 3.3-.8 1.6 0 2 .8 3.4.8 1.4 0 2.3-1.3 3.1-2.5 1-1.4 1.4-2.8 1.4-2.9 0 0-2.7-1-2.7-4.1zM13.9 5c.7-.9 1.2-2 1-3.2-1 0-2.3.7-3 1.6-.7.8-1.3 2-1.1 3.1 1.2.1 2.3-.6 3.1-1.5z"/></svg>
+          <span><small>Загрузите в</small><strong>App Store</strong></span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="footer-row">
+      <a class="brand" href="./"><img src="assets/icon-512.webp" alt="" width="32" height="32">BizCase</a>
+      <ul class="footer-links">
+        <li><a href="terms.html">Условия использования</a></li>
+        <li><a href="privacy.html">Политика конфиденциальности</a></li>
+        <li><a href="#support">Поддержка</a></li>
+      </ul>
+    </div>
+    <p class="disclaimer">© 2026 BizCase. «Окно №3» — игра. Республика, Народный Сберегательный Банк и все персонажи вымышлены; любые совпадения с реальными банками, организациями и людьми случайны. Игра не является финансовой консультацией. App Store и iPhone — товарные знаки Apple Inc.</p>
+  </div>
+</footer>
+</body>
+</html>
